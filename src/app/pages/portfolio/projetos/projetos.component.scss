@@ -1,0 +1,43 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas de tamanho igual */
+    gap: 20px; /* Espaço entre os itens */
+    padding: 20px; /* Espaço ao redor do grid */
+  }
+  
+  .grid-item {
+    background-color: rgb(214, 245, 255);
+    padding: 40px; /* Aumentar o preenchimento interno dos itens */
+    text-align: center;
+    font-size: 30px; /* Aumentar o tamanho da fonte */
+    border: 1px solid #ccc; /* Adicionar borda para visualização */
+  }
+  
+
+  .texto {
+    font-size: 16px; /* Tamanho padrão do texto */
+}
+
+.destaque {
+    font-size: 24px; /* Tamanho aumentado da palavra */
+    font-weight: bold; /* Deixa a palavra em negrito */
+    color: #333; /* Cor da palavra (opcional) */
+}
+a{
+    display: block;
+    background-color: rgb(155, 112, 235);
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-color: 4px;
+    transition: background-color 0.3 ease;
+}
+  
+img{
+    width: 100%;
+}
+
+                                                                                                                                                              
+
+  
